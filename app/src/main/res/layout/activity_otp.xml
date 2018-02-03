@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="32dp"
+    android:gravity="fill_horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OTPActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile No."/>
+    <EditText
+        android:id="@+id/textview_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="+919xxxxxxxxx"/>
+    <Button
+        android:id="@+id/btn_genotp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate OTP!"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter OTP "/>
+    <EditText
+        android:id="@+id/textview_otp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="4 Digit no."/>
+    <Button
+        android:id="@+id/btn_genverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verify"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:src="@drawable/my_pic"
+            android:layout_width="220px"
+            android:layout_height="220px"
+            android:layout_marginTop="16dp"
+            />
+        <ImageView
+        android:id="@+id/vin"
+        android:src="@drawable/vin"
+            android:layout_width="220px"
+            android:layout_height="220px"
+        android:layout_marginTop="16dp"
+
+        />
+    <ImageView
+        android:id="@+id/yti"
+        android:src="@drawable/yti"
+        android:layout_width="220px"
+        android:layout_height="220px"
+        android:layout_marginTop="16dp"
+
+        />
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+
+
+        android:text="@string/summary"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="16sp"
+
+        android:layout_below="@+id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        >
+        <ImageView
+            android:id="@+id/infoimg1"
+            android:src="@drawable/fbimg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:clickable="true"
+
+            />
+        <ImageView
+            android:id="@+id/infoimg2"
+            android:src="@drawable/instaimg"
+            android:clickable="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            />
+        <ImageView
+            android:id="@+id/infoimg3"
+            android:clickable="true"
+            android:src="@drawable/twitterimg"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

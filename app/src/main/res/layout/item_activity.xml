@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ItemActivity">
+    <LinearLayout
+
+        android:id="@+id/booking"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        >
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*"
+            android:background="#ffffff">
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <!--enter P N R-->
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="P N R"
+            android:padding="8dp"
+            android:background="#b0b0b0"
+            android:textColor="#000"
+            />
+            <TextView
+                android:id="@+id/for_pnr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:ems="11"
+                android:textColor="#000"
+                android:paddingLeft="8dp"
+                />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter source station-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" FROM "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="11"
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter destination station-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" TO "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_to"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="11"
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter destination station-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" TRAIN NAME "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_trainname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:paddingLeft="8dp"
+                    android:inputType="text"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter destination station-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" CLASS "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_class"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="10"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter destination station-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" BERTH / SEAT "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_birth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="10"
+                    android:paddingLeft="8dp"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter date-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" DATE "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="11"
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter name-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" NAME "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="11"
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter person age-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" AGE "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="11"
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--enter gender-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" GENDER "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_gen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:ems="11"
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+
+                <!--other people-->
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:text=" OTHER  PASSENGER "
+                    android:padding="8dp"
+                    android:background="#b0b0b0"
+                    android:textColor="#000"
+                    />
+                <TextView
+                    android:id="@+id/for_other"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+
+                    android:textColor="#000"
+                    android:paddingLeft="8dp"
+                    />
+            </TableRow>
+        </TableLayout>
+        </LinearLayout>
+    </ScrollView>

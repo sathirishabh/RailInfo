@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">RailInfo</string>
+    <string name="pnr_status">Show PNR</string>
+    <string name="cancel_tickets">Cancel All </string>
+    <string name="cancel_one">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="insert_dummy">Insert Dummy Data</string>
+    <string name="from_fd">Faizabad</string>
+    <string name="from_ald">Allahabad</string>
+    <string name="from_knp">Kanpur</string>
+    <string name="to_fd">Faizabad</string>
+    <string name="to_ald">Allahabad</string>
+    <string name="to_knp">Kanpur</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_m">M</string>
+    <string name="gender_f">F</string>
+    <string name="age_child_below_5">Child below 5</string>
+    <string name="age_child_above_5">Child above 5</string>
+    <string name="error_failed">failed to insert</string>
+    <string name="sucess_full">sucessfully done!</string>
+    <string name="unsaved_booking_dialog_msg">Discard your Booking and quit editing?</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+    <string name="please_select">select</string>
+    <string name="admin_panel">Admin panel</string>
+    <string name="About_dev">About Devs</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a pet</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+    <string name="summary">This app is a part of project given by RDSO. This app is not for distribution purpose.All group member have big and important contribution to provide a final look to this app
+    </string>
+    <string name="designed_by">Designed by Sathi Rishabh</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_booking">Keep Booking</string>
+    <string name="logout_activity">Logout</string>
+
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_pet_successful">Pet deleted</string>
+    <string name="cancel_dialog_msg">Cancel this Ticket?</string>
+    <string name="error_with_cancelling">Error with cancelling</string>
+
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.railinfo">
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name=".CatalogActivity">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+
+        <activity android:name=".LoginActivity" android:theme="@style/AppTheme.Dark"/>
+        <activity android:name=".SignupActivity"
+            android:theme="@style/AppTheme.Dark"
+            android:parentActivityName=".LoginActivity">
+
+        </activity>
+
+
+        <activity android:name=".EditorActivity"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName=".SearchActivity"
+            android:label="Booking">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SearchActivity" />
+
+        </activity>
+        <activity android:name=".ItemActivity"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName=".CatalogActivity"
+            android:label="Details">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".CatalogActivity" />
+        </activity>
+        <activity android:name=".PnrActivity"
+        android:theme="@style/EditorTheme"
+        android:parentActivityName=".CatalogActivity"
+        android:label="PNR Enquiry">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".CatalogActivity" />
+        </activity>
+        <activity android:name=".OTPActivity"
+            android:theme="@style/EditorTheme"
+            android:label="OTP"
+            android:parentActivityName=".CatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+
+        </activity>
+        <activity android:name=".SearchActivity"
+            android:theme="@style/EditorTheme"
+            android:label="Search Train"
+            android:parentActivityName=".CatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+
+        </activity>
+        <activity android:name=".AdminActivity"
+            android:theme="@style/EditorTheme"
+            android:label="Admin Insert"
+            android:parentActivityName=".CatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+
+
+        </activity>
+        <activity android:name=".AboutActivity"
+            android:theme="@style/EditorTheme"
+            android:label="Information"
+            android:parentActivityName=".CatalogActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CatalogActivity" />
+
+        </activity>
+
+
+
+        <provider
+            android:name=".data.RailProvider"
+            android:authorities="com.example.android.railinfo"
+            android:exported="false"
+            />
+    </application>
+
+</manifest>
